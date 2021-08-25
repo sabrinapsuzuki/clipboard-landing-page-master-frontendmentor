@@ -1,0 +1,114 @@
+/* reset */
+
+/**
+ * Remove anchor tex-decoration
+ */
+
+a {
+  text-decoration: none;
+}
+
+/**
+ * Remove list-style
+ */
+
+ol,
+ul {
+  list-style: none;
+}
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+em,
+img,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+article,
+footer,
+header,
+nav,
+section,
+main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+/* style */
+p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  color: #a7acb0;
+}
+h1 {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  color: #4e565d;
+}
+header {
+  background: url(../images/bg-header-desktop.png) no-repeat center;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.introducao {
+  display: flex;
+  flex-direction: column;
+}
+
+.introducaoInfo {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.introducaoInfo h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.introducaoInfo p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 660px;
+}
+
+.buttons {
+  margin: 0 auto;
+}
