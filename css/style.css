@@ -84,11 +84,16 @@ img {
 p {
   font-size: 18px;
   color: #a7acb0;
+  padding: 0 60px;
 }
 
 h1 {
+  font-size: 40px;
   font-weight: 600;
   color: #4e565d;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 header {
@@ -226,4 +231,44 @@ header {
     padding-left: 60px;
     padding-right: 60px;
   }
+}
+
+.sobreSegundo {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.sobreSegundoInfo {
+  text-align: center;
+}
+
+.sobreSegundoInfo h1 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sobreSegundoInfo p {
+  padding-left: 60px;
+  padding-right: 60px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.devices {
+  margin-top: 40px;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.sobreTerceiro {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.sobreTerceiroInfo {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
 }
