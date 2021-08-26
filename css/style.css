@@ -330,3 +330,22 @@ header {
     margin-bottom: 10px;
   }
 }
+
+.call {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.footerBg {
+  background: #f5f6f8;
+}
+
+.footerContainer {
+  align-items: center;
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+}
