@@ -397,6 +397,7 @@ header {
 }
 
 .footerMenu p {
+  color: #555e66;
   margin-left: 20px;
   padding: 10px 20px;
   cursor: pointer;
